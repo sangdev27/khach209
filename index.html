@@ -495,12 +495,12 @@
             if (apiData) {
                 // Cập nhật title và description dựa trên dữ liệu API
                 let customTitle = "Merry Christmas - Chúc mừng Giáng Sinh";
-                let customDescription = "Bạn thật may mắn khi nhận được món quà này. Chúc bạn và gia đình luôn luôn hạnh phúc 🎄✨";
+                let customDescription = "Món quà quý nhất và cũng là đầu tiên Bụt đích thân mình làm tặng cho Bống vì xứng đáng để có được món quà giáng sinh này 🎄🎅🎁✨";
                 
                 // Nếu có tên người gửi, thêm vào title
                 if (apiData.senderName) {
                     customTitle = `Merry Christmas - Từ ${apiData.senderName}`;
-                    customDescription = `${apiData.senderName} gửi lời chúc: Bạn thật may mắn khi nhận được món quà này. Chúc bạn và gia đình luôn luôn hạnh phúc 🎄✨`;
+                    customDescription = `${apiData.senderName} gửi lời chúc:Món quà quý nhất và cũng là đầu tiên Bụt đích thân mình làm tặng cho Bống vì xứng đáng để có được món quà giáng sinh này 🎄🎅🎁✨`;
                 }
                 
                 // Cập nhật title của trang
@@ -1424,6 +1424,7 @@ function initializeData() {
 </body>
 
 </html> 
+
 
 
 
