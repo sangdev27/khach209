@@ -515,7 +515,7 @@ function getTextEffectSequence() {
     console.warn('Không đọc được textEffectSeq từ apiData, dùng default:', e);
   }
   // Chuỗi mặc định
-  return "Merry|Christmas";
+  return "chúc|Bống|Giáng|Sinh|Như|Mọi|Năm";
 }
 
 function startTextEffect() {
